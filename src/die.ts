@@ -6,14 +6,14 @@ import { getAsset } from './assets';
 import { textHeightForWidth } from './utils';
 
 export enum DieType {
-	D100 = 'd100',
-	D20 = 'd20',
-	D12 = 'd12',
-	D10 = 'd10',
-	D8 = 'd8',
-	D6 = 'd6',
-	D4 = 'd4',
-	D1 = 'd1',
+	D100 = 'SP',
+	D20 = 'AN',
+	D12 = 'ISH',
+	D10 = '-',
+	D8 = 'IMM',
+	D6 = 'ER',
+	D4 = 'SI',
+	D1 = 'VE',
 }
 
 export type DieConstructorOptions = {
