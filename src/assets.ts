@@ -8,13 +8,13 @@ type AssetBuilder = {
 
 /** Strings are glTF paths, functions generate the asset directly. */
 const assetMap: { [name: string]: string | AssetBuilder } = {
-	'd1': './dice.glb',
-	'd4': './dice.glb',
-	'd6': './dice.glb',
-	'd8': './dice.glb',
-	'd10': './dice.glb',
-	'd12': './dice.glb',
-	'd20': './dice.glb',
+	'SP': './dice.glb',
+	'AN': './dice.glb',
+	'ISH': './dice.glb',
+	'IM': './dice.glb',
+	'ME': './dice.glb',
+	'RSI': './dice.glb',
+	'VE': './dice.glb',
 	'Dicebag': {
 		container: './dicebag.glb',
 		builder: ac => ac.loadGltf('./dicebag.glb', 'box').then()
