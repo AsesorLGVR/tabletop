@@ -26,7 +26,7 @@ export default class App {
 			this.bag = MRE.Actor.CreateFromPrefab(this.context, {
 				prefab: bagAsset.prefab,
 				actor: {
-					name: "Dicebag",
+					name: "SPANISH IMMERSIVE",
 					transform: { local: { scale: { x: 0.1, y: 0.1, z: 0.1 }}},
 					collider: { geometry: { shape: MRE.ColliderType.Auto }}
 				}
@@ -45,7 +45,7 @@ export default class App {
 						exclusiveToUser: user.id,
 						transform: { local: { position: { x: 1.3, y: 0.25 }}},
 						text: {
-							contents: "DISMISS DICE",
+							contents: "CERRAR",
 							height: 0.5,
 							anchor: MRE.TextAnchorLocation.MiddleLeft,
 							justify: MRE.TextJustify.Left
